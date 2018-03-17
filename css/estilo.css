@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 300 15px/1.8 'Fjalla One', sans-serif;
+    color: white;
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg1 {
+    background-image: url("../img/imgParallax1.png");
+    min-height: 100%;
+}
+
+.bgimg2 {
+    background-image: url("../img/imgParallax2.png");
+    min-height: 400px;
+}
+
+.bgimg3 {
+    background-image: url("../img/imgParallax3.png");
+    min-height: 400px;
+}
+
+.bgimg4 {
+    background-image: url("../img/imgParallax4.png");
+    min-height: 300px;
+}
+
+#container-logo {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+#container-logo img{
+    background-color: #111;
+    padding: 18px;
+    width: 30%;
+}
+
+#container-sobre {
+    position: relative;
+    color: #ffffff;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+#container-sobre h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+#container-sobre p {
+    font-size: 20px;
+}
+
+#container-portfolio {
+    position: relative;
+    color: #ffffff;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+#container-portfolio h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+#container-contato {
+    position: relative;
+    color: #ffffff;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+#container-contato h3 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+#container-rodape {
+    position: relative;
+    color: #ffffff;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 35px 80px;
+    text-align: justify;
+}
+
+#container-rodape p{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+ /* Turn off parallax scrolling for tablets and phones */
+ @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
